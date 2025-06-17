@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h2>CoverCraft AI</h2>
+    <div class="form-group">
+      <label for="bio">Professional Background</label>
+      <textarea id="bio" placeholder="Tell us about yourself..."></textarea>
+    </div>
+    
+    <div class="form-group">
+      <label for="skills">Skills & Experience</label>
+      <textarea id="skills" placeholder="List your key skills and experiences..."></textarea>
+    </div>
+    
+    <div class="form-group">
+      <label for="apiKey">API Key</label>
+      <input type="password" id="apiKey" placeholder="Enter your OpenAI API Key" />
+      <small>Get your API key from <a href="https://platform.openai.com/account/api-keys" target="_blank">OpenAI</a></small>
+    </div>
+    
+    <div class="checkbox-wrapper">
+      <input type="checkbox" id="rememberKey" />
+      <label for="rememberKey">Remember API Key</label>
+    </div>
+
+    <div class="form-group">
+      <label for="jdKeywords">Job Description Keywords</label>
+      <small>Optional: Add keywords to extract from job description</small>
+      <textarea id="jdKeywords" placeholder="Default: About the role,Job description,Responsibilities" ></textarea>
+    </div>
+
+    <div class="form-group">
+      <label for="jobDescription">Job Description</label>
+      <small>Optional: Paste the job description here</small>
+      <textarea id="jobDescription" placeholder="Paste the job description here..."></textarea>
+    </div>
+    <button id="extractJobDescriptionBtn">Extract Job Description</button>
+
+    <button id="generate">Generate Cover Letter</button>
+    <pre id="output">Update your bio, skills and API key and then click on generate</pre>
+    <button id="copyBtn">Copy</button>
+    <script src="popup.js"></script>
+  </body>
+</html>
