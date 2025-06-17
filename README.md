@@ -2,6 +2,12 @@
 
 CoverCraft AI is a Chrome extension that automatically generates personalized cover letters based on job postings using OpenAI's GPT model. It helps job seekers save time by creating tailored cover letters that match their skills and experience with the job requirements.
 
+## Screenshots
+
+![Screenshot 1](StoreListingAssets/screenshots/1.jpg)
+![Screenshot 2](StoreListingAssets/screenshots/2.jpg)
+![Screenshot 3](StoreListingAssets/screenshots/3.jpg)
+
 ## Features
 
 - 🤖 AI-powered cover letter generation
